@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "pt_serifregular", sans-serif;
+  background-color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.bio,
+.future,
+.skills,
+.ew {
+  margin: 0;
+  padding: 0;
+}
+
+.bio h1,
+.future p,
+.skills h3,
+.ew h3,
+.ew a {
+  margin: 0;
+}
